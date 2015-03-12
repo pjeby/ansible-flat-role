@@ -9,7 +9,7 @@ This role is a template that helps to work around Ansible's irritating conventio
 
 The only `main.yml` you actually need to edit is the `meta/main.yml`, which must remain where it is in order to work with the Ansible Galaxy tools.  The other `main.yml` files remain, but are just symlinks pointing to the matching files from the role's base directory.
 
-To use this template, start by making a copy of it (either by downloading a [release](releases), or creating a new repository and importing this one).  Then, delete everything in this README from this paragraph up, and edit it and the other files to suit your needs.  (Note: since github only allows you to have one fork of a project at a time, don't fork this repo if you're just using it to create a new role.  Download a release or import into a new repository instead!)
+To use this template, start by making a copy of it (either by downloading a [release](/pjeby/ansible-flat-role/releases), or creating a new repository and importing this one).  Then, delete everything in this README from this paragraph up, and edit it and the other files to suit your needs.  (Note: since github only allows you to have one fork of a project at a time, don't fork this repo if you're just using it to create a new role.  Download a release or import into a new repository instead!)
 
 ---
 
