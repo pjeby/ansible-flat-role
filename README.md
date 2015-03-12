@@ -1,3 +1,18 @@
+# Ansible Role with "Flat" Layout
+
+This role is a template that helps to work around Ansible's irritating convention of using lots and lots of `main.yml` files that you can't easily distinguish in your editor.  Instead of e.g. `defaults/main.yml`, `tasks/main.yml`, etc., it uses the following files in the role's base directory:
+
+* `defaults.yml`
+* `handlers.yml` 
+* `tasks.yml`
+* `vars.yml`
+
+The only `main.yml` you actually need to edit is the `meta/main.yml`, which must remain where it is in order to work with the Ansible Galaxy tools.  The other `main.yml` files remain, but are just symlinks pointing to the matching files from the role's base directory.
+
+To use this template, make a copy of it, then delete everything in this README from this paragraph up, then edit it and the other files to suit your needs.
+
+---
+
 Role Name
 =========
 
